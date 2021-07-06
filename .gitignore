@@ -256,5 +256,3 @@ paket-files/
 # General
 *.orig
 *.bak
-
-dll/

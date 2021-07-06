@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>net35;netstandard2.0</TargetFrameworks>
+        <TargetFrameworks>netstandard2.0</TargetFrameworks>
         <Version>0.8.0</Version>
         <Authors>Real Serious Games</Authors>
         <Description>MVVM-style data-binding system for Unity.</Description>
@@ -23,6 +23,18 @@
       </Reference>
       <Reference Include="UnityEngine">
         <HintPath>..\dll\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>..\dll\UnityEngine.AnimationModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>..\dll\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>..\dll\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>..\dll\UnityEngine.TextRenderingModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UI">
         <HintPath>..\dll\UnityEngine.UI.dll</HintPath>
